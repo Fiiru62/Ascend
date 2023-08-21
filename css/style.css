@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway:wght@100;300;500;700&display=swap');
+
+/* 
+Fuente - Nombre
+font-family: 'Dancing Script', cursive;
+*/
+
+/* 
+ Fuente - Body
+ font-family: 'Raleway', sans-serif;
+ 100, 300, 500, 700
+*/
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*? Animacion de scroll en el index */
+/* @keyframes show {
+	from {
+		opacity: 0;
+		scale: 40%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+.animacion-scroll {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+} */
+
+/*? Navbar */
+
+.nombre{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.logo-nombre-container{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 100%;
+}
+
+.logo-carrito{
+    display: flex;
+    align-items: end;
+}
+.carrito img{
+    width: 26px;
+    /* margin-left: 5px; */
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+#logo{
+    justify-content: end;
+    align-items: end;
+    width: 100px;
+    height: 95px;
+}
+
+header img{
+    display: flex;
+    justify-content: end;
+}
+
+.barra-principal{
+    background-color: rgb(200, 182, 166);
+}
+.barra-principal a{
+    color: rgb(242, 226, 206);
+}
+
+/*? Carrousell  */
+
+.carrousel-letras h5{
+    color: #756757;
+}
+.carrousel-letras p{
+    color: #756757;
+}
+
+/*? Logos con info */
+
+.container-info div{
+    overflow: hidden;
+}
+
+.container-info img{
+    width: 90px;
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.container-info img:hover{
+    transform: scale(1.2);
+}
+
+.imagenes-iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagenes-iconos img{
+    width: 75px;
+    height: auto;
+}
+
+.container-textos{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 95px;
+    margin-top: -25px;
+}
+.container-textos p{
+    color: #C8B6A6;
+}
+
+#envios{
+   margin-left: 10px;
+}
+#pagas{
+    margin-right: 25px;
+}
+#wpp{
+    cursor: pointer;
+}
+
+/*? Entradas para comprar */
+
+.contenedor-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.contenedor-horizontal{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-presentacion{
+    border-radius: 5px;
+    margin-left: 30px;
+    height: 640px;
+    width: auto;
+}
+
+.img-horizontal{
+    margin-bottom: 25px;
+    width: 735px;
+    height: auto;
+    margin-right: 90px;
+}
+
+.img-vertical{
+    height: 760px;
+    width: auto;
+    margin-left: 90px;
+}
+
+/*? Quienes somos */
+
+.quienes-somos{
+    color: #C8B6A6;
+    margin-top: 30px;
+    margin-left: 8px;
+    text-align: center;
+}
+.quienes-somos h3{
+    font-size: 25px;
+    font-weight: 400;
+}
+.quienes-somos h1{
+    font-weight: 500;
+}
+
+p{
+    color: #5a5a5a;
+}
+
+hr{
+    height: 20px;
+    color: #756757;
+}
+
+/*? Imagenes destacadas */
+
+.destacadosh2{
+    text-align: center;
+    color: #C8B6A6;
+    font-weight: 500;
+    font-size: 32px;
+}
+.primera-fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.primera-fila img{
+    width: 93%;
+    margin-left: 14px;
+}
+.primera-fila div p{
+    /* text-align: center; */
+    margin-left: 13px;
+    margin-top: 8px;
+}
+.primera-fila div{
+    overflow: hidden;
+}
+.primera-fila img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.primera-fila img:hover{
+    transform: scale(1.05);
+}
+
+.titulo-img-destacados{
+    color: #C8B6A6;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-body{
+    border: none;
+}
+
+/*? Seguinos en instagram (imagen) */
+
+.seguinos-ig{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+/*? Titulo antes del footer */
+
+.titulo-abajo{
+    margin-top: 40px;
+    width: 100%;
+    background-color: #C8B6A6;
+    color: #e8dbd1;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+}
+
+/*? Footer */
+
+/* .footer{
+    background-color: #C8B6A6;
+} */ /* Mismo color que el navbar */
+
+.footer{
+    display: flex;
+    color:  #5a5a5a;
+}
+
+.footer p{
+    color: #f2e2ce;
+}
+
+label{
+    margin-top: 2px;
+}
+
+.footer-email{
+    margin-left: 2%;
+    background-color: #e8dbd1;
+    width: 450px;
+    height: 120px;
+    border: 1px solid #e8dbd1;
+    border-radius: 20px;
+    text-align: center;
+}
+.footer-email input{
+    margin-top: 20px;
+    margin-right: 180px;
+    border: 1px solid black;
+    background-color: #e8dbd1;
+    border-radius: 5px;
+    color: #e8dbd1;
+}
+
+.enviar{
+    background-color: #e8dbd1;
+    border: 1px solid black;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.ayuda{
+    margin-left: 8%;
+}
+.ayuda p{
+    color: #5a5a5a;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.ayuda p:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.ayuda h6{
+    font-size: 13px;
+    margin-left: 50px;
+}
+.ayuda h6:hover{
+    color: black;
+    cursor: none;
+}
+.ayuda a{
+    text-decoration: none;
+}
+
+.seguinos{
+    margin-left: 10%;
+}
+.seguinos h6{
+    font-size: 13px;
+    margin-left: 50px;
+}
+.seguinos h6:hover{
+    color: black;
+    cursor: none;
+}
+
+.redes-sociales div{
+    overflow: hidden;
+}
+
+.redes-sociales img{
+    width: 35px;
+    cursor: pointer;
+    margin-left: 28px;
+    margin-top: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    object-fit: cover;
+}
+
+.redes-sociales img:hover{
+    transform: scale(1.2);
+}
+
+.redes-sociales a{
+    text-decoration: none;
+}
+
+.ig-face{
+    display: flexbox;
+}
+
+.twitter-youtube{
+    display: flexbox;
+}
+
+.contactanos{
+    margin-left: 10%;
+}
+.contactanos h6{
+    font-size: 13px;
+    margin-left: 50px;
+}
+.contactanos h6:hover{
+    color: black;
+    cursor: none;
+}
+.contactanos a{
+    text-decoration: none;
+}
+
+.ico img{
+    margin: 7px;
+    width: 25px;
+    height: auto;
+}
+.ico p{
+    color: #5a5a5a;
+    cursor: pointer;
+}
+.ico p:hover{
+    color: black;
+}
+
+.ubicacion{
+    display: flex;
+}
+.ubicacion p{
+    margin-top: 4px;
+}
+.email{
+    display: flex;
+}
+.email p{
+    margin-top: 4px;
+}
+
+.mensaje{
+    display: flex;
+}
+.mensaje p{
+    margin-top: 4px;
+}
+
+.email a{
+    text-decoration: none;
+}
+.mensaje a{
+    text-decoration: none;
+}
+
+.tarjetas{
+    display: flex;
+}
+
+.tarjetas-img img{
+    width: 45px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.txt-final{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+/*! ---------------------Politicas cambio html----------------- */
+
+.politicas{
+    /* h1 */
+    color: #C8B6A6;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.politicas1{
+    /* h6 */
+    margin-top: 60px;
+    font-size: 12px;
+    margin-left: 0;
+}
+
+.politicas-img{
+    display: flex;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.politicas-img img{
+    width: 150px;
+}
+
+.terminos{
+    /* p */
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.terminos li{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.titulos-terminos{
+    color: #C8B6A6;
+    margin-top: 18px;
+}
+
+/*! ---------------------Pantalones, remeras y buzos.html----------------- */
+/* Tienen la class pantalones pero aplican para las tres páginas */
+
+.pantalones1{
+    margin-left: 900px;
+    border: none;
+    overflow: hidden;
+}
+.pantalones1 img{
+    width: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.pantalones1 img:hover{
+    transform: scale(1.2);
+}
+.pantalones1 p{
+    margin-left: 18px;
+}
+.pantalones1 h5{
+    margin-left: 18px;
+}
+
+/* ------------------------------------------- */
+.pantalon2{
+    margin-left: 330px;
+    border: none;
+    margin-top: -560px;
+    overflow: hidden;
+}
+.pantalon2 img{
+    width: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.pantalon2 img:hover{
+    transform: scale(1.2);
+}
+.pantalon2 p{
+    margin-left: 18px;
+}
+.pantalon2 h5{
+    margin-left: 18px;
+}
+
+/* ---------------------------------------------- */
+.pantalon3{
+    margin-left: 330px;
+    border: none;
+    overflow: hidden;
+}
+.pantalon3 img{
+    width: 500px;
+    transition: 0.5s;
+    object-fit: cover;
+}
+.pantalon3 img:hover{
+    transform: scale(1.2);
+}
+.pantalon3 p{
+    margin-left: 18px;
+}
+.pantalon3 h5{
+    margin-left: 18px;
+}
+
+/* -----------------------------------------------*/
+
+.detalles{
+    margin-top: -1160px;
+    margin-left: 10px;
+    margin-bottom: -15px;
+    border-right: 1px solid #e8dbd1;
+    width: 300px;
+}
+
+.boton-filtrar{
+    margin-top: 15px;
+    background-color: white;
+    border-color: white;
+}
+.boton-filtrar:hover{
+    color: black;
+    background-color: #e8dbd1;
+}
+
+.hr-productos{
+    margin-left: 310px;
+}
+
+.footer-pantalones{
+    margin-top: 10px;
+}
+
+.hr-footer{
+    margin-top: 200px;
+}
+
+.titulo-pantalones{
+    margin-left: 330px;
+    color: #C8B6A6;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.hr-filtro{
+    margin-left: -10px;
+}
+
+/*! ---------------------Carrito.html----------------- */
+
+.fondo-contenedor{
+    background-color: #C8B6A6;
+}
+
+.carrito-parte-final p{
+    text-align: center;
+}
+
+.carrito-gracias-p{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.carrito-ascend{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #C8B6A6;
+}
+
+.ir-a-pagar:hover{
+    color: black;
+}
+
+
+/*! ---------------------Compra.html----------------- */
+
+.logo-compra{
+    width: 15%;
+    display: flexbox;
+    justify-content: center;
+    margin-left: 26%;
+}
+
+.formulario-compra{
+    display: flex;
+    justify-content: center;
+    margin-right: 1000px;
+    margin-top: -60px;
+    margin-left: 250px;
+}
+.formulario-compra input{
+    width: 150%;
+    margin-top: 10px;
+}
+.input-email{
+    height: 45px;
+}
+
+/* -------------------------------------- */
+
+.input-notificaciones{
+    margin-top: 5px;
+}
+.input-notificaciones input{
+    width: 20px;
+    border: 1px solid #666666;
+}
+.input-notificaciones label{
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+/* ------------------------------------------- */
+.entrega-formulario{
+    margin-top: 50px;
+}
+.entrega-formulario select{
+    margin-top: 8px;
+    width: 150%;
+    height: 45px;
+}
+
+.entrega-datos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150%;
+    height: 50px;
+    margin-top: 5px;
+}
+.entrega-nombre{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------- */
+.entrega-datos2 input{
+    height: 45px;
+}
+
+/* ------------------------------------------------- */
+.formulario-compra input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+     margin: 0; 
+}
+
+/* .formulario-compra input[type=number] { -moz-appearance:textfield; } */
+
+/* --------------------------------------------------- */
+.resumen-carrito{
+    margin-left: 80%;
+    margin-top: -600px;
+    margin-right: 150px;
+    width: 40%;
+}
+
+.boton-continuar button{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 84%;
+    color: white;
+    background-color: #C8B6A6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.boton-continuar button:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.hr-footer-compra{
+    margin-top: 10px;
+}
+
+/*! ---------------------Compra-dos.html----------------- */
+
+.tarjeta-formulario{
+    margin-top: -60px;
+    width: 35%;
+}
+
+.resumen-carrito-compra2{
+    margin-top: -260px;
+}
+
+.boton-continuar2 button{
+    display: flexbox;
+    justify-content: end;
+}
+
+.hr-footer-compra2{
+    margin-top: 8px;
+}
+
+
+/*! ---------------------Compra-finalizar.html----------------- */
+
+.cartel-notificacion-final{
+    text-align: center;
+    margin: 200px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    padding: 30px;
+    width: 75%;
+    box-shadow: 10px 10px 8px -3px #f2e2ce;
+}
+
+.cartel-notificacion-final h5{
+    font-size: 30px;
+}
+
+.cartel-notificacion-final p{
+    margin-top: 15px;
+}
+
+.seguir-comprando-boton button{
+    display: flexbox;
+    justify-content: center;
+    margin-left: 620px;
+    margin-bottom: 50px;
+    margin-top: -100px;
+
+
+    width: 300px;
+    height: 60px;
+    color: white;
+    background-color: #C8B6A6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.seguir-comprando-boton button:hover{
+    color: black;
+    transition: 0.5s;
+}
